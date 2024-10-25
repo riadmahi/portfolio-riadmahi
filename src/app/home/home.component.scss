@@ -48,10 +48,16 @@
     background: linear-gradient(to right, #131313, #6B6A6A);
     color: transparent;
     background-clip: text;
-    width: 600px;
+    width: 50%;
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 4.5vw; 
+}
+
+app-top-bar {
+    width: 90%;
+    position: absolute;
+    top: 20px;
 }
 
 

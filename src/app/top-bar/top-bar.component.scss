@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.mail-resume-cv-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F0EF;
+    border-radius: 50px;
+    gap: 12px;
+    padding: 0px 12px;
+}
+
+.mail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    p {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: #131313;
+    background-color: white;
+    border: 0px solid;
+    padding: 12px 24px;
+    border-radius: 50px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.redirections-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.redirection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #131313;
+    gap: 12px;
+    margin-right: 12px;
+    p {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+    }
+    span {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+    }
+}
