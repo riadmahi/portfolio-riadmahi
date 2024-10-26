@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    background-color: #F1F0EF;
+    border-radius: 50px;
+    gap: 12px;
+    padding: 0px 8px;
+
+    p {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+    }
+}
+
+.back {
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 40px;
+    &:hover {
+        cursor: pointer;
+        background-color: #dad4ce;
+    }
+}
+
+
+.header {
+    width: 100%;
+    height: 80vh;
+    background-color: #F7F6F2;
+    border-radius: 12px 12px 64px 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.header-photo {
+    width: 40vh;
+    object-fit: cover;
+}
+
+.header-title-column {
+    display: flex;
+    flex-direction: column;
+}
+.header-title {
+	background: linear-gradient(to right, #131313, #6B6A6A);
+    color: transparent;
+    background-clip: text;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 4vw; 
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.dummy-title {
+    height: 40vh;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author-avatar img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: block;
+	overflow: hidden;
+	margin: 16px 10px;
+  }
+
+.header-caption {
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+
+section {
+    padding: 48px;
+    
+    h1 {
+
+        background: linear-gradient(to right, #131313, #6B6A6A);
+        color: transparent;
+        background-clip: text;
+        font-family: "DM Sans", sans-serif;
+        font-weight: bold;
+        font-size: 2
+        1.5vw; 
+    }
+
+    p {
+        color: #454545;
+        font-family: "DM Sans", sans-serif;
+        line-height: 160%;
+        max-width: 80vh;
+    }
+}
+
+.brand {
+    width: 80px;
+    object-fit: fill;
+}
+
+.right-content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+    img {
+        width: 50vh;
+        height: 80vh;
+        object-fit: cover;
+    }
+}
